@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-family: 'Inter', sans-serif;
+    /* margin: 12px 0px 12px 0px; */
+}
+
+.navSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.coverImage{
+    width: 1473px;
+    position: relative;
+}
+
+.navBar{
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* width: 100vh; */
+    background-color: rgb(96, 208, 62);
+    height: 45px;
+    width: 1000px;
+    align-items: center;
+    border-radius: 54px;
+    margin-left: 50px;
+    position: absolute;
+    top: 568px;
+}
+
+.navBar>a{
+    color: black;
+    text-decoration: none;
+}
+
+.navBar>button{
+    background: none;
+    border: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.aboutus{
+    /* margin-top: 120px; */
+    text-align: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.aboutus--header{
+    font-size: 50px;
+}
+
+
+.aboutus--main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.aboutus--extended{
+    font-size: 18px;
+}
+
+.animalHusbandry{
+    text-align: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    
+}
+
+.animalHusbandry>h1{
+    font-size: 50px;
+    margin-bottom: 80px;    
+}
+
+.animalHusbandry--main{
+    display: flex;
+    flex-direction: row;
+}
+
+.animalHusbandry--main>img{
+    width: 350px;
+    border-radius: 50%;
+}
+
+.chatSection{
+    height: 80vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.chatSection>h1{
+    font-size: 50px;
+}
+
+.chatSection--main{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.chatSection--main>div>p{
+    padding-top: 100px;
+}
+
+.animalHusbandry>div>button, .chatSection--main>div>button{
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 20px 0px 0px 40px;
+    background-color: #C0C0C0;
+
+}
+
+.animalHusbandry>div>button{
+    float: right;
+    margin-right: 100px;
+}
+
+.animalHusbandry>div>button>a{
+    color: green;
+    text-decoration: none;
+}
+
+.animalHusbandry>div>button, .chatSection--main>div>button>a{
+    color: green;
+    text-decoration: none;
+
+}
+
+.weather{
+
+    display: flex;
+    flex-direction: row;
+    /* display: unset; */
+    float: left;
+    justify-content: center;
+    border-style: outset;
+    margin: 25px;
+    
+}
+
+.weather--main>h1{
+    font-size: 50px;
+}
+
+.weather--main>div>p{
+    margin: 50px 0px 50px 0px;
+    padding: 0px;
+}
+
+.weather--main{
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--logo{
+    width: 132px;
+    margin-bottom: 0px;
+}
+
+.footer--section{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.footer--content >h4{
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 12px;
+}
+
+.footer--content > p{
+    font-size: 16px;
+    color: #696969;
+    margin: 5px 0px;
+    font-weight: 300;
+}
+
+.footer{
+    margin-top: 400px;
+    padding: 48px 200px 22px 200px;
+    background-color: rgba(245, 245, 220, 0.473);
+}
+
+.footer > hr{
+    margin: 50px 0px 8px;
+}
+
+.footer > p{
+    color:rgb(79, 79, 79);
+    font-size: 13px;
+    font-weight: 300;
+    margin: 13px 0px 8px;
+}
+
+.socialMediaLogo > img{
+    margin-right: 12px;
+    border-radius: 15px;
+    width: 22px;
+}
+
+.storeLogo{
+    display: block;
+    width: 137px;
+    margin-top: 15px;
+    border-radius: 5px;
+}

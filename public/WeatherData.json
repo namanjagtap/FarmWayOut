@@ -1,0 +1,50 @@
+[
+    {
+        "date": "2022-11-20",
+        "temperatureC": 1,
+        "summary": "Bracing",
+        "temperatureF": 33
+    },
+    {
+        "date": "2022-11-21",
+        "temperatureC": 1,
+        "summary": "Freezing",
+        "temperatureF": 33
+    },
+    {
+        "date":"2022-11-22",
+        "temperatureC":14,
+        "summary":"Bracing",
+        "temperatureF":57 
+    },
+    { 
+        "date":"2022-11-23", 
+        "temperatureC":-13, 
+        "summary":"Freezing", 
+        "temperatureF":9 
+    },
+    { 
+        "date":"2022-11-24", 
+        "temperatureC":-16, 
+        "summary":"Balmy", 
+        "temperatureF":4 
+    },
+    {
+        "date":"2022-11-25", 
+        "temperatureC":-2, 
+        "summary":"Chilly", 
+        "temperatureF":29 
+    },
+    {
+        "date":"2022-11-26", 
+        "temperatureC":-2, 
+        "summary":"Bracing", 
+        "temperatureF":29 
+    },
+    {
+        "date":"2022-11-27",
+        "temperatureC":4, 
+        "summary":"Balmy", 
+        "temperatureF":29 
+    }
+]
